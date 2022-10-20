@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(-45deg, #2B456C 50%, #a4cdd8 50%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 22px;
+}
+
+.btn {
+    font-size: 24px;
+    color: #2B456C;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+
+}
+
+.conteudo-principal {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #2B456C;
+}
+
+.primeira-seção {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.primeiro-conteudo-title {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 34px;
+    color: #2B456C;
+}
+
+.conteudo-subtitle{
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B456C;
+}
+
+.primeiro-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    font-family: 'Sarala', sans-serif;
+    color: #2B456C;
+}
+
+.imagem-bio {
+    padding-top: 30px;
+    width: 380px;
+    height: 300px;
+}
+
+.segunda-seção {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 38px;
+    padding: 10px;
+}
+
+.segundo-conteudo-title {
+    text-align: center;
+    padding:20px 130px;
+    color: #a4cdd8;
+    font-family: 'Righteous', cursive;
+    font-size: 34px;
+    font-weight: 700;
+
+}
+
+.segundo-conteudo-subtitle{
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #a4cdd8;
+}
+
+.rodapé {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title-rodapé {
+    border-top: 0.4px solid #a4cdd8;
+    text-align: center;
+    padding: 20px;
+    color: #a4cdd8;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.conteudo-rodapé {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
